@@ -1,0 +1,68 @@
+2021-04-01 11:00:48.509 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-04-01_11-00-47
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-04-01 11:00:50.469 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:4051
+2021-04-01 11:00:50.483 [INFO ] [D 192.168.101.172:4051        ] [            main.Reader] - 192.168.101.172:4051 RECEIVING FROM CLIENT... 
+2021-04-01 11:00:50.484 [INFO ] [D 192.168.101.172:4051        ] [            main.Reader] - 192.168.101.172:4051 68 BYTES FROM CLIENT RECEIVED
+2021-04-01 11:00:50.492 [INFO ] [D 192.168.101.172:4051        ] [main.ClientHandleThread] - 192.168.101.172:4051 DATA FROM CLIENT PARSED
+2021-04-01 11:00:50.493 [INFO ] [D 192.168.101.172:4051        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = TEH_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 10
+								field 7  [TID]               = 40014155
+								
+2021-04-01 11:00:50.494 [INFO ] [D 192.168.101.172:4051        ] [            main.Sender] - 192.168.101.172:4051 VERF = 3 BYTES >>>
+
+												37 32 37												TO CLIENT OK !
+2021-04-01 11:09:27.842 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:4924
+2021-04-01 11:09:27.842 [INFO ] [D 192.168.101.172:4924        ] [            main.Reader] - 192.168.101.172:4924 RECEIVING FROM CLIENT... 
+2021-04-01 11:09:27.842 [INFO ] [D 192.168.101.172:4924        ] [            main.Reader] - 192.168.101.172:4924 78 BYTES FROM CLIENT RECEIVED
+2021-04-01 11:09:27.846 [INFO ] [D 192.168.101.172:4924        ] [main.ClientHandleThread] - 192.168.101.172:4924 DATA FROM CLIENT PARSED
+2021-04-01 11:09:27.846 [INFO ] [D 192.168.101.172:4924        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0074
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 14
+								field 7  [TID]               = 40014154
+								
+2021-04-01 11:09:27.848 [INFO ] [D 192.168.101.172:4924        ] [            main.Sender] - 192.168.101.172:4924 VERF = 3 BYTES >>>
+
+												37 32 37												TO CLIENT OK !
+2021-04-01 11:10:33.701 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:5027
+2021-04-01 11:10:33.701 [INFO ] [D 192.168.101.172:5027        ] [            main.Reader] - 192.168.101.172:5027 RECEIVING FROM CLIENT... 
+2021-04-01 11:10:33.701 [INFO ] [D 192.168.101.172:5027        ] [            main.Reader] - 192.168.101.172:5027 68 BYTES FROM CLIENT RECEIVED
+2021-04-01 11:10:33.701 [INFO ] [D 192.168.101.172:5027        ] [main.ClientHandleThread] - 192.168.101.172:5027 DATA FROM CLIENT PARSED
+2021-04-01 11:10:33.705 [INFO ] [D 192.168.101.172:5027        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000002500
+								field 4  [SERVICE]           = TEH_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 14
+								field 7  [TID]               = 40014154
+								
+2021-04-01 11:10:33.706 [INFO ] [D 192.168.101.172:5027        ] [            main.Sender] - 192.168.101.172:5027 VERF = 3 BYTES >>>
+
+												37 32 37												TO CLIENT OK !
+2021-04-01 11:26:41.228 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-04-01_11-26-40
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+

@@ -1,0 +1,108 @@
+2021-05-04 15:09:53.363 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.200:2730
+2021-05-04 15:09:53.366 [INFO ] [D 192.168.101.200:2730        ] [            main.Reader] - 192.168.101.200:2730 RECEIVING FROM CLIENT... 
+2021-05-04 15:09:53.366 [INFO ] [D 192.168.101.200:2730        ] [            main.Reader] - 192.168.101.200:2730 76 BYTES FROM CLIENT RECEIVED
+2021-05-04 15:09:53.367 [INFO ] [D 192.168.101.200:2730        ] [main.ClientHandleThread] - 192.168.101.200:2730 DATA FROM CLIENT PARSED
+2021-05-04 15:09:53.367 [INFO ] [D 192.168.101.200:2730        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0072
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934433000999111
+								field 3  [AMOUNT]            = 000000001500
+								field 4  [SERVICE]           = HASAL_OTLARA_GARSY
+								field 5  [FIELDS AREA (HA)]  = 18
+								field 7  [TID]               = 40015424
+								
+2021-05-04 15:09:53.368 [INFO ] [D 192.168.101.200:2730        ] [main.ClientHandleThread] - 192.168.101.200:2730 1 VERIFYING...
+2021-05-04 15:09:53.369 [INFO ] [D 192.168.101.200:2730        ] [main.ClientHandleThread] - 192.168.101.200:2730 2 VERIFYING...
+2021-05-04 15:09:53.369 [INFO ] [D 192.168.101.200:2730        ] [main.ClientHandleThread] - 192.168.101.200:2730 3 VERIFYING...
+2021-05-04 15:09:53.369 [INFO ] [D 192.168.101.200:2730        ] [            main.Sender] - 192.168.101.200:2730 VERF = 3 BYTES >>>
+
+												37 32 39												TO CLIENT OK !
+2021-05-04 15:13:07.788 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-05-04_15-13-07
+MODULE_IP        :   192.168.101.200
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-05-04 15:13:12.023 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.200:2773
+2021-05-04 15:13:12.031 [INFO ] [D 192.168.101.200:2773        ] [            main.Reader] - 192.168.101.200:2773 RECEIVING FROM CLIENT... 
+2021-05-04 15:13:12.031 [INFO ] [D 192.168.101.200:2773        ] [            main.Reader] - 192.168.101.200:2773 76 BYTES FROM CLIENT RECEIVED
+2021-05-04 15:13:12.034 [INFO ] [D 192.168.101.200:2773        ] [main.ClientHandleThread] - 192.168.101.200:2773 DATA FROM CLIENT PARSED
+2021-05-04 15:13:12.035 [INFO ] [D 192.168.101.200:2773        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0072
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934433000999111
+								field 3  [AMOUNT]            = 000000001500
+								field 4  [SERVICE]           = HASAL_OTLARA_GARSY
+								field 5  [FIELDS AREA (HA)]  = 18
+								field 7  [TID]               = 40015424
+								
+2021-05-04 15:13:12.035 [INFO ] [D 192.168.101.200:2773        ] [main.ClientHandleThread] - 192.168.101.200:2773 1 VERIFYING...
+2021-05-04 15:13:12.035 [INFO ] [D 192.168.101.200:2773        ] [main.ClientHandleThread] - 192.168.101.200:2773 2 VERIFYING...
+2021-05-04 15:13:12.035 [INFO ] [D 192.168.101.200:2773        ] [main.ClientHandleThread] - 192.168.101.200:2773 3 VERIFYING...
+2021-05-04 15:13:12.036 [INFO ] [D 192.168.101.200:2773        ] [            main.Sender] - 192.168.101.200:2773 VERF = 3 BYTES >>>
+
+												37 32 39												TO CLIENT OK !
+2021-05-04 15:47:43.094 [ERROR] [main                          ] [          main.DBWorker] - ERROR: UNABLE CONNECT TO DB ! :(
+2021-05-04 15:48:14.824 [ERROR] [main                          ] [          main.DBWorker] - ERROR: UNABLE CONNECT TO DB ! :(
+2021-05-04 15:48:19.244 [ERROR] [main                          ] [          main.DBWorker] - ERROR: UNABLE CONNECT TO DB ! :(
+2021-05-04 15:48:40.763 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-05-04_15-48-40
+MODULE_IP        :   192.168.101.200
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-05-04 15:48:47.076 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.200:3822
+2021-05-04 15:48:47.084 [INFO ] [D 192.168.101.200:3822        ] [            main.Reader] - 192.168.101.200:3822 RECEIVING FROM CLIENT... 
+2021-05-04 15:48:47.084 [INFO ] [D 192.168.101.200:3822        ] [            main.Reader] - 192.168.101.200:3822 76 BYTES FROM CLIENT RECEIVED
+2021-05-04 15:48:47.088 [INFO ] [D 192.168.101.200:3822        ] [main.ClientHandleThread] - 192.168.101.200:3822 DATA FROM CLIENT PARSED
+2021-05-04 15:48:47.088 [INFO ] [D 192.168.101.200:3822        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0072
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934433000999111
+								field 3  [AMOUNT]            = 000000001500
+								field 4  [SERVICE]           = HASAL_OTLARA_GARSY
+								field 5  [FIELDS AREA (HA)]  = 18
+								field 7  [TID]               = 40015424
+								
+2021-05-04 15:48:47.088 [INFO ] [D 192.168.101.200:3822        ] [main.ClientHandleThread] - 192.168.101.200:3822 1 VERIFYING...
+2021-05-04 15:48:47.089 [INFO ] [D 192.168.101.200:3822        ] [            main.Sender] - 192.168.101.200:3822 VERF = 3 BYTES >>>
+
+												37 32 37												TO CLIENT OK !
+2021-05-04 15:49:58.725 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-05-04_15-49-58
+MODULE_IP        :   192.168.101.200
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-05-04 15:50:03.342 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.200:3856
+2021-05-04 15:50:03.350 [INFO ] [D 192.168.101.200:3856        ] [            main.Reader] - 192.168.101.200:3856 RECEIVING FROM CLIENT... 
+2021-05-04 15:50:03.351 [INFO ] [D 192.168.101.200:3856        ] [            main.Reader] - 192.168.101.200:3856 76 BYTES FROM CLIENT RECEIVED
+2021-05-04 15:50:03.354 [INFO ] [D 192.168.101.200:3856        ] [main.ClientHandleThread] - 192.168.101.200:3856 DATA FROM CLIENT PARSED
+2021-05-04 15:50:03.354 [INFO ] [D 192.168.101.200:3856        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0072
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934433000999111
+								field 3  [AMOUNT]            = 000000001500
+								field 4  [SERVICE]           = HASAL_OTLARA_GARSY
+								field 5  [FIELDS AREA (HA)]  = 18
+								field 7  [TID]               = 40015424
+								
+2021-05-04 15:50:03.354 [INFO ] [D 192.168.101.200:3856        ] [main.ClientHandleThread] - 192.168.101.200:3856 1 VERIFYING...
+2021-05-04 15:50:03.355 [INFO ] [D 192.168.101.200:3856        ] [main.ClientHandleThread] - 192.168.101.200:3856 2 VERIFYING...
+2021-05-04 15:50:03.355 [INFO ] [D 192.168.101.200:3856        ] [main.ClientHandleThread] - 192.168.101.200:3856 3 VERIFYING...
+2021-05-04 15:50:03.355 [INFO ] [D 192.168.101.200:3856        ] [main.ClientHandleThread] - 192.168.101.200:3856 DB VERIFYING...
+2021-05-04 15:50:03.434 [INFO ] [D 192.168.101.200:3856        ] [            main.Sender] - 192.168.101.200:3856 VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="dayhan_limits@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.17">
+    <root id="1">
+      <ServerVersion>9.6.5</ServerVersion>
+      <StartupTime>1607145954</StartupTime>
+    </root>
+    <database id="2" parent="1" name="dayhan_limits">
+      <ObjectId>363441</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>24795</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Relations>sequence|table|363450|363452|1
+</Relations>
+    </database>
+    <database id="3" parent="1" name="dayhan_toleg">
+      <ObjectId>279157</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="gaz">
+      <ObjectId>35056</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="hb">
+      <ObjectId>339967</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="pensiya">
+      <ObjectId>206757</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="postgres">
+      <ObjectId>12401</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="recovery">
+      <ObjectId>129579</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="rysgal_clean">
+      <ObjectId>213420</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="10" parent="1" name="rysgal_new_prod">
+      <ObjectId>92457</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="11" parent="1" name="rysgal_test">
+      <ObjectId>16393</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="12" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+    </role>
+    <role id="13" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="14" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+      <StateNumber>342</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="15" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>339</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="16" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>340</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>24796</IntrospectionStateNumber>
+      <Current>1</Current>
+    </schema>
+    <access-method id="17" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="18" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="19" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="20" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="21" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="22" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="23" parent="2" name="plpgsql">
+      <ObjectId>12387</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>494</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="24" parent="16" name="limits_id_seq">
+      <ObjectId>363450</ObjectId>
+      <StateNumber>24786</StateNumber>
+      <Owner>postgres</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="25" parent="16" name="limits">
+      <ObjectId>363452</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>24786</StateNumber>
+    </table>
+    <table id="26" parent="16" name="operations">
+      <ObjectId>363461</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>24794</StateNumber>
+    </table>
+    <column id="27" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24786</StateNumber>
+      <DefaultExpression>nextval(&apos;limits_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="28" parent="25" name="pan">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24786</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="29" parent="25" name="field_area">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24786</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="30" parent="25" name="limit_suw">
+      <Position>4</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="31" parent="25" name="limit_mineral">
+      <Position>5</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="32" parent="25" name="limit_ammonil">
+      <Position>6</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="33" parent="25" name="limit_karbamid">
+      <Position>7</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="34" parent="25" name="limit_tohum">
+      <Position>8</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="35" parent="25" name="limit_himiki">
+      <Position>9</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="36" parent="25" name="limit_mehanizm">
+      <Position>10</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="37" parent="25" name="limit_avia">
+      <Position>11</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="38" parent="25" name="limit_bank">
+      <Position>12</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24786</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <index id="39" parent="25" name="limit_pkey">
+      <ObjectId>363459</ObjectId>
+      <StateNumber>24786</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="40" parent="25" name="limit_pkey">
+      <ObjectId>363460</ObjectId>
+      <StateNumber>24786</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>limit_pkey</UnderlyingIndexName>
+    </key>
+    <column id="41" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24794</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="42" parent="26" name="pan">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24794</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="43" parent="26" name="field_area">
+      <Position>3</Position>
+      <DataType>smallint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>24794</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <column id="44" parent="26" name="service">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>24794</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="45" parent="26" name="amount">
+      <Position>5</Position>
+      <DataType>numeric|0s</DataType>
+      <StateNumber>24794</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="46" parent="26" name="rrn">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>24794</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="47" parent="26" name="status">
+      <Position>7</Position>
+      <DataType>smallint|0s</DataType>
+      <StateNumber>24794</StateNumber>
+      <TypeId>21</TypeId>
+    </column>
+    <index id="48" parent="26" name="operations_pkey">
+      <ObjectId>363467</ObjectId>
+      <StateNumber>24794</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="49" parent="26" name="operations_pkey">
+      <ObjectId>363468</ObjectId>
+      <StateNumber>24794</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>operations_pkey</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>

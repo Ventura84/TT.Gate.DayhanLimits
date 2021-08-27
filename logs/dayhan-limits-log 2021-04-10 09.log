@@ -1,0 +1,57 @@
+2021-04-10 09:10:11.575 [ERROR] [main                          ] [          main.DBWorker] - ERROR: UNABLE CONNECT TO DB ! :(
+2021-04-10 09:10:39.445 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-04-10_09-10-39
+MODULE_IP        :   127.0.0.1
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-04-10 09:10:58.265 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 127.0.0.1:3423
+2021-04-10 09:10:58.275 [INFO ] [D 127.0.0.1:3423              ] [            main.Reader] - 127.0.0.1:3423 RECEIVING FROM CLIENT... 
+2021-04-10 09:10:58.296 [INFO ] [D 127.0.0.1:3423              ] [            main.Reader] - 127.0.0.1:3423 68 BYTES FROM CLIENT RECEIVED
+2021-04-10 09:10:58.304 [INFO ] [D 127.0.0.1:3423              ] [main.ClientHandleThread] - 127.0.0.1:3423 DATA FROM CLIENT PARSED
+2021-04-10 09:10:58.304 [INFO ] [D 127.0.0.1:3423              ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934431000999111
+								field 3  [AMOUNT]            = 000000001500
+								field 4  [SERVICE]           = TEH_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 18
+								field 7  [TID]               = 40014153
+								
+2021-04-10 09:10:58.304 [INFO ] [D 127.0.0.1:3423              ] [main.ClientHandleThread] - 127.0.0.1:3423 1 VERIFYING...
+2021-04-10 09:10:58.305 [INFO ] [D 127.0.0.1:3423              ] [            main.Sender] - 127.0.0.1:3423 VERF = 3 BYTES >>>
+
+												37 32 37												TO CLIENT OK !
+2021-04-10 09:12:47.107 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-04-10_09-12-47
+MODULE_IP        :   127.0.0.1
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-04-10 09:12:54.240 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 127.0.0.1:4460
+2021-04-10 09:12:54.248 [INFO ] [D 127.0.0.1:4460              ] [            main.Reader] - 127.0.0.1:4460 RECEIVING FROM CLIENT... 
+2021-04-10 09:12:54.248 [INFO ] [D 127.0.0.1:4460              ] [            main.Reader] - 127.0.0.1:4460 68 BYTES FROM CLIENT RECEIVED
+2021-04-10 09:12:54.252 [INFO ] [D 127.0.0.1:4460              ] [main.ClientHandleThread] - 127.0.0.1:4460 DATA FROM CLIENT PARSED
+2021-04-10 09:12:54.253 [INFO ] [D 127.0.0.1:4460              ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934431000999111
+								field 3  [AMOUNT]            = 000000001500
+								field 4  [SERVICE]           = TEH_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 18
+								field 7  [TID]               = 40014153
+								
+2021-04-10 09:12:54.253 [INFO ] [D 127.0.0.1:4460              ] [main.ClientHandleThread] - 127.0.0.1:4460 1 VERIFYING...
+2021-04-10 09:12:54.253 [INFO ] [D 127.0.0.1:4460              ] [main.ClientHandleThread] - 127.0.0.1:4460 2 VERIFYING...
+2021-04-10 09:12:54.253 [INFO ] [D 127.0.0.1:4460              ] [main.ClientHandleThread] - 127.0.0.1:4460 3 VERIFYING...
+2021-04-10 09:12:54.254 [INFO ] [D 127.0.0.1:4460              ] [            main.Sender] - 127.0.0.1:4460 VERF = 3 BYTES >>>
+
+												37 32 39												TO CLIENT OK !

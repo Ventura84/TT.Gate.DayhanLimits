@@ -1,0 +1,4 @@
+ERROR: UNABLE CONNECT TO DB !
+Exception in thread "main" java.lang.NullPointerException
+	at main.DBWorker.createTablesOnStart(DBWorker.java:137)
+	at main.Main.main(Main.java:156)

@@ -1,0 +1,87 @@
+2021-03-29 11:37:28.119 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_11-37-28
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 11:49:15.984 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:2574
+2021-03-29 11:49:15.992 [INFO ] [D 192.168.101.172:2574        ] [            main.Reader] - 192.168.101.172:2574 RECEIVING FROM CLIENT... 
+2021-03-29 11:49:16.358 [INFO ] [D 192.168.101.172:2574        ] [            main.Reader] - 192.168.101.172:2574 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 11:49:16.367 [INFO ] [D 192.168.101.172:2574        ] [main.ClientHandleThread] - 192.168.101.172:2574 DATA FROM CLIENT PARSED
+2021-03-29 11:49:16.367 [INFO ] [D 192.168.101.172:2574        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 10
+								
+2021-03-29 11:49:16.561 [ERROR] [D 192.168.101.172:2574        ] [          main.DBWorker] - ERROR: UNABLE CONNECT TO DB ! :(
+2021-03-29 11:51:23.447 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:2704
+2021-03-29 11:51:23.448 [INFO ] [D 192.168.101.172:2704        ] [            main.Reader] - 192.168.101.172:2704 RECEIVING FROM CLIENT... 
+2021-03-29 11:51:23.448 [INFO ] [D 192.168.101.172:2704        ] [            main.Reader] - 192.168.101.172:2704 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 11:51:23.449 [INFO ] [D 192.168.101.172:2704        ] [main.ClientHandleThread] - 192.168.101.172:2704 DATA FROM CLIENT PARSED
+2021-03-29 11:51:23.449 [INFO ] [D 192.168.101.172:2704        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 14
+								
+2021-03-29 11:51:23.503 [ERROR] [D 192.168.101.172:2704        ] [          main.DBWorker] - ERROR: UNABLE CONNECT TO DB ! :(
+2021-03-29 11:54:42.163 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_11-54-42
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 11:55:20.308 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:2940
+2021-03-29 11:55:20.316 [INFO ] [D 192.168.101.172:2940        ] [            main.Reader] - 192.168.101.172:2940 RECEIVING FROM CLIENT... 
+2021-03-29 11:55:20.317 [INFO ] [D 192.168.101.172:2940        ] [            main.Reader] - 192.168.101.172:2940 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 11:55:20.322 [INFO ] [D 192.168.101.172:2940        ] [main.ClientHandleThread] - 192.168.101.172:2940 DATA FROM CLIENT PARSED
+2021-03-29 11:55:20.323 [INFO ] [D 192.168.101.172:2940        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 10
+								
+2021-03-29 11:55:20.649 [ERROR] [D 192.168.101.172:2940        ] [          main.DBWorker] - 192.168.101.172:2940 ERROR: CHECKING LIMITS ERROR !!! :(
+2021-03-29 11:55:20.650 [INFO ] [D 192.168.101.172:2940        ] [            main.Sender] - 192.168.101.172:2940 VERF = 12 BYTES >>>
+
+												56 45 52 49 46 59 5F 45 52 52 4F 52												TO CLIENT OK !
+2021-03-29 11:56:59.975 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_11-56-59
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 11:57:33.743 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:3076
+2021-03-29 11:57:33.751 [INFO ] [D 192.168.101.172:3076        ] [            main.Reader] - 192.168.101.172:3076 RECEIVING FROM CLIENT... 
+2021-03-29 11:57:33.752 [INFO ] [D 192.168.101.172:3076        ] [            main.Reader] - 192.168.101.172:3076 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 11:57:33.757 [INFO ] [D 192.168.101.172:3076        ] [main.ClientHandleThread] - 192.168.101.172:3076 DATA FROM CLIENT PARSED
+2021-03-29 11:57:33.758 [INFO ] [D 192.168.101.172:3076        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 10
+								
+2021-03-29 11:57:33.970 [INFO ] [D 192.168.101.172:3076        ] [            main.Sender] - 192.168.101.172:3076 VERF = 12 BYTES >>>
+
+												56 45 52 49 46 59 5F 45 52 52 4F 52												TO CLIENT OK !

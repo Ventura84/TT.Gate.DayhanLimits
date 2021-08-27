@@ -1,0 +1,52 @@
+2021-03-29 12:23:01.969 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_12-23-01
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 12:23:33.975 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:5415
+2021-03-29 12:23:33.984 [INFO ] [D 192.168.101.172:5415        ] [            main.Reader] - 192.168.101.172:5415 RECEIVING FROM CLIENT... 
+2021-03-29 12:23:33.984 [INFO ] [D 192.168.101.172:5415        ] [            main.Reader] - 192.168.101.172:5415 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 12:23:33.991 [INFO ] [D 192.168.101.172:5415        ] [main.ClientHandleThread] - 192.168.101.172:5415 DATA FROM CLIENT PARSED
+2021-03-29 12:23:33.991 [INFO ] [D 192.168.101.172:5415        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 10
+								
+2021-03-29 12:23:34.230 [INFO ] [D 192.168.101.172:5415        ] [            main.Sender] - 192.168.101.172:5415 VERF = 20 BYTES >>>
+
+												41 44 44 49 4E 47 5F 4E 45 57 5F 50 41 4E 5F 45 
+												52 52 4F 52												TO CLIENT OK !
+2021-03-29 12:36:39.462 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_12-36-39
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 12:36:50.893 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:6277
+2021-03-29 12:36:50.906 [INFO ] [D 192.168.101.172:6277        ] [            main.Reader] - 192.168.101.172:6277 RECEIVING FROM CLIENT... 
+2021-03-29 12:36:50.907 [INFO ] [D 192.168.101.172:6277        ] [            main.Reader] - 192.168.101.172:6277 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 12:36:50.914 [INFO ] [D 192.168.101.172:6277        ] [main.ClientHandleThread] - 192.168.101.172:6277 DATA FROM CLIENT PARSED
+2021-03-29 12:36:50.915 [INFO ] [D 192.168.101.172:6277        ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000700
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 14
+								
+2021-03-29 12:36:51.130 [INFO ] [D 192.168.101.172:6277        ] [            main.Sender] - 192.168.101.172:6277 VERF = 20 BYTES >>>
+
+												41 44 44 49 4E 47 5F 4E 45 57 5F 50 41 4E 5F 45 
+												52 52 4F 52												TO CLIENT OK !

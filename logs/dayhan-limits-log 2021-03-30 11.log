@@ -1,0 +1,134 @@
+2021-03-30 11:02:29.704 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:19155
+2021-03-30 11:02:29.708 [INFO ] [D 192.168.101.172:19155       ] [            main.Reader] - 192.168.101.172:19155 RECEIVING FROM CLIENT... 
+2021-03-30 11:02:29.709 [INFO ] [D 192.168.101.172:19155       ] [            main.Reader] - 192.168.101.172:19155 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:02:29.711 [INFO ] [D 192.168.101.172:19155       ] [main.ClientHandleThread] - 192.168.101.172:19155 DATA FROM CLIENT PARSED
+2021-03-30 11:02:29.712 [INFO ] [D 192.168.101.172:19155       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000002500
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:02:29.782 [INFO ] [D 192.168.101.172:19155       ] [            main.Sender] - 192.168.101.172:19155 VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-03-30 11:02:31.797 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:19161
+2021-03-30 11:02:31.798 [INFO ] [D 192.168.101.172:19161       ] [            main.Reader] - 192.168.101.172:19161 RECEIVING FROM CLIENT... 
+2021-03-30 11:02:31.804 [INFO ] [D 192.168.101.172:19161       ] [            main.Reader] - 192.168.101.172:19161 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:02:31.805 [INFO ] [D 192.168.101.172:19161       ] [main.ClientHandleThread] - 192.168.101.172:19161 DATA FROM CLIENT PARSED
+2021-03-30 11:02:31.806 [INFO ] [D 192.168.101.172:19161       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = PAID
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000002500
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:02:31.878 [INFO ] [D 192.168.101.172:19161       ] [          main.DBWorker] - 192.168.101.172:19161 OPERATION -= PAID =- SAVED TO DATABASE
+
+2021-03-30 11:05:28.693 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:19485
+2021-03-30 11:05:28.694 [INFO ] [D 192.168.101.172:19485       ] [            main.Reader] - 192.168.101.172:19485 RECEIVING FROM CLIENT... 
+2021-03-30 11:05:28.694 [INFO ] [D 192.168.101.172:19485       ] [            main.Reader] - 192.168.101.172:19485 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:05:28.695 [INFO ] [D 192.168.101.172:19485       ] [main.ClientHandleThread] - 192.168.101.172:19485 DATA FROM CLIENT PARSED
+2021-03-30 11:05:28.695 [INFO ] [D 192.168.101.172:19485       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000002500
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:05:28.758 [INFO ] [D 192.168.101.172:19485       ] [            main.Sender] - 192.168.101.172:19485 VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-03-30 11:05:30.766 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:19491
+2021-03-30 11:05:30.767 [INFO ] [D 192.168.101.172:19491       ] [            main.Reader] - 192.168.101.172:19491 RECEIVING FROM CLIENT... 
+2021-03-30 11:05:30.768 [INFO ] [D 192.168.101.172:19491       ] [            main.Reader] - 192.168.101.172:19491 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:05:30.768 [INFO ] [D 192.168.101.172:19491       ] [main.ClientHandleThread] - 192.168.101.172:19491 DATA FROM CLIENT PARSED
+2021-03-30 11:05:30.769 [INFO ] [D 192.168.101.172:19491       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = PAID
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000002500
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:05:30.830 [INFO ] [D 192.168.101.172:19491       ] [          main.DBWorker] - 192.168.101.172:19491 OPERATION -= PAID =- SAVED TO DATABASE
+
+2021-03-30 11:20:41.702 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-30_11-20-41
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-30 11:21:24.740 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21046
+2021-03-30 11:21:24.747 [INFO ] [D 192.168.101.172:21046       ] [            main.Reader] - 192.168.101.172:21046 RECEIVING FROM CLIENT... 
+2021-03-30 11:21:24.747 [INFO ] [D 192.168.101.172:21046       ] [            main.Reader] - 192.168.101.172:21046 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:21:24.750 [INFO ] [D 192.168.101.172:21046       ] [main.ClientHandleThread] - 192.168.101.172:21046 DATA FROM CLIENT PARSED
+2021-03-30 11:21:24.751 [INFO ] [D 192.168.101.172:21046       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000200
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:21:24.824 [INFO ] [D 192.168.101.172:21046       ] [            main.Sender] - 192.168.101.172:21046 VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-03-30 11:21:26.832 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21051
+2021-03-30 11:21:26.834 [INFO ] [D 192.168.101.172:21051       ] [            main.Reader] - 192.168.101.172:21051 RECEIVING FROM CLIENT... 
+2021-03-30 11:21:26.835 [INFO ] [D 192.168.101.172:21051       ] [            main.Reader] - 192.168.101.172:21051 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:21:26.836 [INFO ] [D 192.168.101.172:21051       ] [main.ClientHandleThread] - 192.168.101.172:21051 DATA FROM CLIENT PARSED
+2021-03-30 11:21:26.837 [INFO ] [D 192.168.101.172:21051       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = PAID
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000200
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:21:26.912 [INFO ] [D 192.168.101.172:21051       ] [          main.DBWorker] - 192.168.101.172:21051 OPERATION -= PAID =- SAVED TO DATABASE
+
+2021-03-30 11:22:35.524 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21184
+2021-03-30 11:22:35.525 [INFO ] [D 192.168.101.172:21184       ] [            main.Reader] - 192.168.101.172:21184 RECEIVING FROM CLIENT... 
+2021-03-30 11:22:35.525 [INFO ] [D 192.168.101.172:21184       ] [            main.Reader] - 192.168.101.172:21184 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:22:35.526 [INFO ] [D 192.168.101.172:21184       ] [main.ClientHandleThread] - 192.168.101.172:21184 DATA FROM CLIENT PARSED
+2021-03-30 11:22:35.526 [INFO ] [D 192.168.101.172:21184       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000200
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:22:35.589 [INFO ] [D 192.168.101.172:21184       ] [            main.Sender] - 192.168.101.172:21184 VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-03-30 11:22:37.593 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21189
+2021-03-30 11:22:37.594 [INFO ] [D 192.168.101.172:21189       ] [            main.Reader] - 192.168.101.172:21189 RECEIVING FROM CLIENT... 
+2021-03-30 11:22:37.594 [INFO ] [D 192.168.101.172:21189       ] [            main.Reader] - 192.168.101.172:21189 68 BYTES FROM CLIENT RECEIVED
+2021-03-30 11:22:37.595 [INFO ] [D 192.168.101.172:21189       ] [main.ClientHandleThread] - 192.168.101.172:21189 DATA FROM CLIENT PARSED
+2021-03-30 11:22:37.596 [INFO ] [D 192.168.101.172:21189       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0064
+								         [MTI]               = PAID
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000200
+								field 4  [SERVICE]           = SUW_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 12
+								field 7  [TID]               = 40014155
+								
+2021-03-30 11:22:37.670 [INFO ] [D 192.168.101.172:21189       ] [          main.DBWorker] - 192.168.101.172:21189 OPERATION -= PAID =- SAVED TO DATABASE
+

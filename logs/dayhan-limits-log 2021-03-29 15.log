@@ -1,0 +1,78 @@
+2021-03-29 15:30:05.372 [ERROR] [main                          ] [              main.Main] - ERROR. CAN`T GET PROPERTIES
+java.lang.NullPointerException
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at main.Properties.getProp(Properties.java:54)
+	at main.Main.main(Main.java:82)
+2021-03-29 15:36:50.892 [ERROR] [main                          ] [              main.Main] - ERROR. CAN`T GET PROPERTIES
+java.lang.NullPointerException
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1838)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at main.Properties.getProp(Properties.java:54)
+	at main.Main.main(Main.java:82)
+2021-03-29 15:38:56.349 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_15-38-56
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 15:39:13.825 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:33053
+2021-03-29 15:39:13.897 [INFO ] [D 192.168.101.172:33053       ] [            main.Reader] - 192.168.101.172:33053 RECEIVING FROM CLIENT... 
+2021-03-29 15:39:13.901 [INFO ] [D 192.168.101.172:33053       ] [            main.Reader] - 192.168.101.172:33053 70 BYTES FROM CLIENT RECEIVED
+2021-03-29 15:39:13.912 [INFO ] [D 192.168.101.172:33053       ] [main.ClientHandleThread] - 192.168.101.172:33053 DATA FROM CLIENT PARSED
+2021-03-29 15:39:13.912 [INFO ] [D 192.168.101.172:33053       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0066
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000000100
+								field 4  [SERVICE]           = AWTOULAG_HARAJATLARY
+								field 5  [FIELDS AREA (HA)]  = 15
+								
+2021-03-29 15:39:14.346 [INFO ] [D 192.168.101.172:33053       ] [            main.Sender] - 192.168.101.172:33053 VERF = 20 BYTES >>>
+
+												41 44 44 49 4E 47 5F 4E 45 57 5F 50 41 4E 5F 45 
+												52 52 4F 52												TO CLIENT OK !
+2021-03-29 15:56:17.856 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-03-29_15-56-17
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-03-29 15:57:17.537 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:34383
+2021-03-29 15:57:17.549 [INFO ] [D 192.168.101.172:34383       ] [            main.Reader] - 192.168.101.172:34383 RECEIVING FROM CLIENT... 
+2021-03-29 15:57:17.549 [INFO ] [D 192.168.101.172:34383       ] [            main.Reader] - 192.168.101.172:34383 60 BYTES FROM CLIENT RECEIVED
+2021-03-29 15:57:17.560 [INFO ] [D 192.168.101.172:34383       ] [main.ClientHandleThread] - 192.168.101.172:34383 DATA FROM CLIENT PARSED
+2021-03-29 15:57:17.560 [INFO ] [D 192.168.101.172:34383       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934701935274543
+								field 3  [AMOUNT]            = 000000004000
+								field 4  [SERVICE]           = TEH_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 14
+								
+2021-03-29 15:57:17.880 [INFO ] [D 192.168.101.172:34383       ] [            main.Sender] - 192.168.101.172:34383 VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-03-29 15:57:19.883 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:34388
+2021-03-29 15:57:19.884 [INFO ] [D 192.168.101.172:34388       ] [            main.Reader] - 192.168.101.172:34388 RECEIVING FROM CLIENT... 
+2021-03-29 15:57:19.885 [INFO ] [D 192.168.101.172:34388       ] [            main.Reader] - 192.168.101.172:34388 44 BYTES FROM CLIENT RECEIVED
+2021-03-29 15:57:19.887 [INFO ] [D 192.168.101.172:34388       ] [main.ClientHandleThread] - 192.168.101.172:34388 DATA FROM CLIENT PARSED
+2021-03-29 15:57:19.889 [INFO ] [D 192.168.101.172:34388       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0040
+								         [MTI]               = PAID
+								field 3  [AMOUNT]            = 000000004000
+								field 4  [SERVICE]           = TEH_HYZMAT
+								field 5  [FIELDS AREA (HA)]  = 14
+								
+2021-03-29 15:57:20.023 [INFO ] [D 192.168.101.172:34388       ] [          main.DBWorker] - 192.168.101.172:34388 OPERATION PAID SAVED TO DATABASE
+

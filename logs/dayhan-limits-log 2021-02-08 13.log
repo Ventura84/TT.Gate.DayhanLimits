@@ -1,0 +1,54 @@
+2021-02-08 13:17:38.005 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:44800
+2021-02-08 13:17:38.005 [INFO ] [D 192.168.101.172:44800       ] [            main.Reader] - 192.168.101.172:44800 RECEIVING FROM CLIENT... 
+2021-02-08 13:17:40.009 [ERROR] [D 192.168.101.172:44800       ] [main.ClientHandleThread] - 192.168.101.172:44800 ERROR: CAN`T GET BYTES FROM CLIENT !
+
+java.lang.Exception: Read timed out
+[java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ java.net.SocketInputStream.read(SocketInputStream.java:127)
+ main.Reader.ReadFrom(Reader.java:21)
+ main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+ main.ClientHandleThread.run(ClientHandleThread.java:137)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+
+	at main.Reader.ReadFrom(Reader.java:34)
+	at main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+	at main.ClientHandleThread.run(ClientHandleThread.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-08 13:24:22.698 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:45518
+2021-02-08 13:24:22.698 [INFO ] [D 192.168.101.172:45518       ] [            main.Reader] - 192.168.101.172:45518 RECEIVING FROM CLIENT... 
+2021-02-08 13:24:24.719 [ERROR] [D 192.168.101.172:45518       ] [main.ClientHandleThread] - 192.168.101.172:45518 ERROR: CAN`T GET BYTES FROM CLIENT !
+
+java.lang.Exception: Read timed out
+[java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ java.net.SocketInputStream.read(SocketInputStream.java:127)
+ main.Reader.ReadFrom(Reader.java:21)
+ main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+ main.ClientHandleThread.run(ClientHandleThread.java:137)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+
+	at main.Reader.ReadFrom(Reader.java:34)
+	at main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+	at main.ClientHandleThread.run(ClientHandleThread.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

@@ -1,0 +1,70 @@
+2021-02-10 09:46:31.494 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-02-10_09-46-31
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-02-10 09:48:58.124 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:14332
+2021-02-10 09:48:58.150 [INFO ] [D 192.168.101.172:14332       ] [            main.Reader] - 192.168.101.172:14332 RECEIVING FROM CLIENT... 
+2021-02-10 09:48:58.150 [INFO ] [D 192.168.101.172:14332       ] [            main.Reader] - 192.168.101.172:14332 128 BYTES FROM CLIENT RECEIVED
+2021-02-10 09:48:58.154 [INFO ] [D 192.168.101.172:14332       ] [main.ClientHandleThread] - 192.168.101.172:14332 DATA FROM CLIENT PARSED
+2021-02-10 09:48:58.154 [INFO ] [D 192.168.101.172:14332       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0131
+								         [MTI]               = 0200
+								field 3  [AMOUNT]            = 000000000000
+								field 4  [SERVICE]           = 
+								
+2021-02-10 09:52:03.174 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:14367
+2021-02-10 09:52:03.174 [INFO ] [D 192.168.101.172:14367       ] [            main.Reader] - 192.168.101.172:14367 RECEIVING FROM CLIENT... 
+2021-02-10 09:52:03.174 [INFO ] [D 192.168.101.172:14367       ] [            main.Reader] - 192.168.101.172:14367 128 BYTES FROM CLIENT RECEIVED
+2021-02-10 09:52:03.174 [INFO ] [D 192.168.101.172:14367       ] [main.ClientHandleThread] - 192.168.101.172:14367 DATA FROM CLIENT PARSED
+2021-02-10 09:52:03.174 [INFO ] [D 192.168.101.172:14367       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0131
+								         [MTI]               = 0200
+								field 3  [AMOUNT]            = 000000000000
+								field 4  [SERVICE]           = 
+								
+2021-02-10 09:54:12.634 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:14627
+2021-02-10 09:54:12.635 [INFO ] [D 192.168.101.172:14627       ] [            main.Reader] - 192.168.101.172:14627 RECEIVING FROM CLIENT... 
+2021-02-10 09:54:12.635 [INFO ] [D 192.168.101.172:14627       ] [            main.Reader] - 192.168.101.172:14627 128 BYTES FROM CLIENT RECEIVED
+2021-02-10 09:54:12.635 [INFO ] [D 192.168.101.172:14627       ] [main.ClientHandleThread] - 192.168.101.172:14627 DATA FROM CLIENT PARSED
+2021-02-10 09:54:12.635 [INFO ] [D 192.168.101.172:14627       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0131
+								         [MTI]               = 0200
+								field 3  [AMOUNT]            = 000000000000
+								field 4  [SERVICE]           = 
+								
+2021-02-10 09:56:39.918 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:14648
+2021-02-10 09:56:39.918 [INFO ] [D 192.168.101.172:14648       ] [            main.Reader] - 192.168.101.172:14648 RECEIVING FROM CLIENT... 
+2021-02-10 09:56:39.922 [INFO ] [D 192.168.101.172:14648       ] [            main.Reader] - 192.168.101.172:14648 128 BYTES FROM CLIENT RECEIVED
+2021-02-10 09:56:39.922 [INFO ] [D 192.168.101.172:14648       ] [main.ClientHandleThread] - 192.168.101.172:14648 DATA FROM CLIENT PARSED
+2021-02-10 09:56:39.922 [INFO ] [D 192.168.101.172:14648       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0131
+								         [MTI]               = 0200
+								field 3  [AMOUNT]            = 000000000000
+								field 4  [SERVICE]           = 
+								
+2021-02-10 09:58:26.533 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:14673
+2021-02-10 09:58:26.533 [INFO ] [D 192.168.101.172:14673       ] [            main.Reader] - 192.168.101.172:14673 RECEIVING FROM CLIENT... 
+2021-02-10 09:58:26.533 [INFO ] [D 192.168.101.172:14673       ] [            main.Reader] - 192.168.101.172:14673 128 BYTES FROM CLIENT RECEIVED
+2021-02-10 09:58:26.533 [INFO ] [D 192.168.101.172:14673       ] [main.ClientHandleThread] - 192.168.101.172:14673 DATA FROM CLIENT PARSED
+2021-02-10 09:58:26.533 [INFO ] [D 192.168.101.172:14673       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0131
+								         [MTI]               = 0200
+								field 3  [AMOUNT]            = 000000000000
+								field 4  [SERVICE]           = 
+								
+2021-02-10 09:59:08.653 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:14697
+2021-02-10 09:59:08.653 [INFO ] [D 192.168.101.172:14697       ] [            main.Reader] - 192.168.101.172:14697 RECEIVING FROM CLIENT... 
+2021-02-10 09:59:08.653 [INFO ] [D 192.168.101.172:14697       ] [            main.Reader] - 192.168.101.172:14697 128 BYTES FROM CLIENT RECEIVED
+2021-02-10 09:59:08.653 [INFO ] [D 192.168.101.172:14697       ] [main.ClientHandleThread] - 192.168.101.172:14697 DATA FROM CLIENT PARSED
+2021-02-10 09:59:08.653 [INFO ] [D 192.168.101.172:14697       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0131
+								         [MTI]               = 0200
+								field 3  [AMOUNT]            = 000000000000
+								field 4  [SERVICE]           = 
+								

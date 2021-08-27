@@ -1,0 +1,211 @@
+2021-02-08 09:13:20.313 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-02-08_09-13-20
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-02-08 09:16:57.688 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:19793
+2021-02-08 09:16:59.589 [INFO ] [D 192.168.101.172:19793       ] [            main.Reader] - 192.168.101.172:19793 RECEIVING FROM CLIENT... 
+2021-02-08 09:17:01.597 [ERROR] [D 192.168.101.172:19793       ] [main.ClientHandleThread] - 192.168.101.172:19793 ERROR: CAN`T GET BYTES FROM CLIENT !
+
+java.lang.Exception: Read timed out
+[java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ java.net.SocketInputStream.read(SocketInputStream.java:127)
+ main.Reader.ReadFrom(Reader.java:21)
+ main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+ main.ClientHandleThread.run(ClientHandleThread.java:137)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+
+	at main.Reader.ReadFrom(Reader.java:34)
+	at main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+	at main.ClientHandleThread.run(ClientHandleThread.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-08 09:21:33.899 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:20168
+2021-02-08 09:21:33.899 [INFO ] [D 192.168.101.172:20168       ] [            main.Reader] - 192.168.101.172:20168 RECEIVING FROM CLIENT... 
+2021-02-08 09:21:35.903 [ERROR] [D 192.168.101.172:20168       ] [main.ClientHandleThread] - 192.168.101.172:20168 ERROR: CAN`T GET BYTES FROM CLIENT !
+
+java.lang.Exception: Read timed out
+[java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ java.net.SocketInputStream.read(SocketInputStream.java:127)
+ main.Reader.ReadFrom(Reader.java:21)
+ main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+ main.ClientHandleThread.run(ClientHandleThread.java:137)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+
+	at main.Reader.ReadFrom(Reader.java:34)
+	at main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+	at main.ClientHandleThread.run(ClientHandleThread.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-08 09:23:20.241 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:20304
+2021-02-08 09:23:20.241 [INFO ] [D 192.168.101.172:20304       ] [            main.Reader] - 192.168.101.172:20304 RECEIVING FROM CLIENT... 
+2021-02-08 09:23:22.262 [ERROR] [D 192.168.101.172:20304       ] [main.ClientHandleThread] - 192.168.101.172:20304 ERROR: CAN`T GET BYTES FROM CLIENT !
+
+java.lang.Exception: Read timed out
+[java.net.SocketInputStream.socketRead0(Native Method)
+ java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+ java.net.SocketInputStream.read(SocketInputStream.java:171)
+ java.net.SocketInputStream.read(SocketInputStream.java:141)
+ java.net.SocketInputStream.read(SocketInputStream.java:127)
+ main.Reader.ReadFrom(Reader.java:21)
+ main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+ main.ClientHandleThread.run(ClientHandleThread.java:137)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+
+	at main.Reader.ReadFrom(Reader.java:34)
+	at main.ClientHandleThread.getBytesFromIsFail(ClientHandleThread.java:78)
+	at main.ClientHandleThread.run(ClientHandleThread.java:137)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-02-08 09:26:39.681 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:20505
+2021-02-08 09:26:39.681 [INFO ] [D 192.168.101.172:20505       ] [            main.Reader] - 192.168.101.172:20505 RECEIVING FROM CLIENT... 
+2021-02-08 09:26:39.681 [INFO ] [D 192.168.101.172:20505       ] [            main.Reader] - 192.168.101.172:20505 60 BYTES FROM CLIENT RECEIVED
+2021-02-08 09:26:39.681 [INFO ] [D 192.168.101.172:20505       ] [main.ClientHandleThread] - 192.168.101.172:20505 DATA FROM CLIENT PARSED
+2021-02-08 09:26:39.681 [INFO ] [D 192.168.101.172:20505       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934111000217001
+								field 3  [AMOUNT]            = 000000002340
+								field 4  [SERVICE]           = TEH_CILLER
+								field 5  [FIELDS AREA (HA)]  = 18
+								
+2021-02-08 09:26:41.818 [INFO ] [D 192.168.101.172:20505       ] [            main.Sender] - 192.168.101.172:20505 DAYHAN_VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-02-08 09:33:58.637 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-02-08_09-33-58
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-02-08 09:34:12.794 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:20982
+2021-02-08 09:34:12.794 [INFO ] [D 192.168.101.172:20982       ] [            main.Reader] - 192.168.101.172:20982 RECEIVING FROM CLIENT... 
+2021-02-08 09:34:12.794 [INFO ] [D 192.168.101.172:20982       ] [            main.Reader] - 192.168.101.172:20982 60 BYTES FROM CLIENT RECEIVED
+2021-02-08 09:34:12.794 [INFO ] [D 192.168.101.172:20982       ] [main.ClientHandleThread] - 192.168.101.172:20982 DATA FROM CLIENT PARSED
+2021-02-08 09:34:12.794 [INFO ] [D 192.168.101.172:20982       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934111000217001
+								field 3  [AMOUNT]            = 000000002340
+								field 4  [SERVICE]           = TEH_CILLER
+								field 5  [FIELDS AREA (HA)]  = 18
+								
+2021-02-08 09:34:12.956 [INFO ] [D 192.168.101.172:20982       ] [            main.Sender] - 192.168.101.172:20982 DAYHAN_VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-02-08 09:35:50.438 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21098
+2021-02-08 09:35:50.454 [INFO ] [D 192.168.101.172:21098       ] [            main.Reader] - 192.168.101.172:21098 RECEIVING FROM CLIENT... 
+2021-02-08 09:35:50.454 [INFO ] [D 192.168.101.172:21098       ] [            main.Reader] - 192.168.101.172:21098 60 BYTES FROM CLIENT RECEIVED
+2021-02-08 09:35:50.454 [INFO ] [D 192.168.101.172:21098       ] [main.ClientHandleThread] - 192.168.101.172:21098 DATA FROM CLIENT PARSED
+2021-02-08 09:35:50.454 [INFO ] [D 192.168.101.172:21098       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934111000217001
+								field 3  [AMOUNT]            = 000000002340
+								field 4  [SERVICE]           = TEH_CILLER
+								field 5  [FIELDS AREA (HA)]  = 18
+								
+2021-02-08 09:35:50.492 [INFO ] [D 192.168.101.172:21098       ] [            main.Sender] - 192.168.101.172:21098 DAYHAN_VERF = 2 BYTES >>>
+
+												4F 4B												TO CLIENT OK !
+2021-02-08 09:39:44.719 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21391
+2021-02-08 09:39:44.719 [INFO ] [D 192.168.101.172:21391       ] [            main.Reader] - 192.168.101.172:21391 RECEIVING FROM CLIENT... 
+2021-02-08 09:39:44.719 [INFO ] [D 192.168.101.172:21391       ] [            main.Reader] - 192.168.101.172:21391 60 BYTES FROM CLIENT RECEIVED
+2021-02-08 09:39:44.719 [INFO ] [D 192.168.101.172:21391       ] [main.ClientHandleThread] - 192.168.101.172:21391 DATA FROM CLIENT PARSED
+2021-02-08 09:39:44.734 [INFO ] [D 192.168.101.172:21391       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934111000217001
+								field 3  [AMOUNT]            = 000000032340
+								field 4  [SERVICE]           = TEH_CILLER
+								field 5  [FIELDS AREA (HA)]  = 18
+								
+2021-02-08 09:39:44.765 [INFO ] [D 192.168.101.172:21391       ] [            main.Sender] - 192.168.101.172:21391 DAYHAN_VERF = 12 BYTES >>>
+
+												56 45 52 49 46 59 20 45 52 52 4F 52												TO CLIENT OK !
+2021-02-08 09:42:34.505 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-02-08_09-42-34
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-02-08 09:42:41.224 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21603
+2021-02-08 09:42:41.239 [INFO ] [D 192.168.101.172:21603       ] [            main.Reader] - 192.168.101.172:21603 RECEIVING FROM CLIENT... 
+2021-02-08 09:42:41.239 [INFO ] [D 192.168.101.172:21603       ] [            main.Reader] - 192.168.101.172:21603 60 BYTES FROM CLIENT RECEIVED
+2021-02-08 09:42:41.239 [INFO ] [D 192.168.101.172:21603       ] [main.ClientHandleThread] - 192.168.101.172:21603 DATA FROM CLIENT PARSED
+2021-02-08 09:42:41.239 [INFO ] [D 192.168.101.172:21603       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934111000217001
+								field 3  [AMOUNT]            = 000000032340
+								field 4  [SERVICE]           = TEH_CILLER
+								field 5  [FIELDS AREA (HA)]  = 18
+								
+2021-02-08 09:42:41.386 [INFO ] [D 192.168.101.172:21603       ] [            main.Sender] - 192.168.101.172:21603 DAYHAN_VERF = 12 BYTES >>>
+
+												56 45 52 49 46 59 5F 45 52 52 4F 52												TO CLIENT OK !
+2021-02-08 09:43:05.858 [INFO ] [main                          ] [              main.Main] - 
+
+======================================================
+DAYHAN LIMITS v 1.0
+STARTED AT 2021-02-08_09-43-05
+MODULE_IP        :   192.168.101.172
+MODULE_PORT      :   4444
+======================================================
+
+
+2021-02-08 09:43:08.542 [INFO ] [main                          ] [              main.Main] - NEW CONNECTION FROM: 192.168.101.172:21644
+2021-02-08 09:43:08.542 [INFO ] [D 192.168.101.172:21644       ] [            main.Reader] - 192.168.101.172:21644 RECEIVING FROM CLIENT... 
+2021-02-08 09:43:08.542 [INFO ] [D 192.168.101.172:21644       ] [            main.Reader] - 192.168.101.172:21644 60 BYTES FROM CLIENT RECEIVED
+2021-02-08 09:43:08.558 [INFO ] [D 192.168.101.172:21644       ] [main.ClientHandleThread] - 192.168.101.172:21644 DATA FROM CLIENT PARSED
+2021-02-08 09:43:08.558 [INFO ] [D 192.168.101.172:21644       ] [main.ClientHandleThread] - 
+								         [LENGTH]            = 0056
+								         [MTI]               = VERF
+								field 2  [PAN]               = 9934111000217001
+								field 3  [AMOUNT]            = 000000032340
+								field 4  [SERVICE]           = TEH_CILLER
+								field 5  [FIELDS AREA (HA)]  = 18
+								
+2021-02-08 09:43:08.727 [INFO ] [D 192.168.101.172:21644       ] [            main.Sender] - 192.168.101.172:21644 DAYHAN_VERF = 12 BYTES >>>
+
+												56 45 52 49 46 59 5F 45 52 52 4F 52												TO CLIENT OK !
