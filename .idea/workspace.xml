@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4343db6c-529a-4c2f-b4ab-d4f4552624df" name="Default Changelist" comment="" />
+    <list default="true" id="4343db6c-529a-4c2f-b4ab-d4f4552624df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l0MVPdQCya3hmDjyHEurnrepiD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -173,7 +179,7 @@
       <workItem from="1625118330564" duration="604000" />
       <workItem from="1628766853934" duration="886000" />
       <workItem from="1629097920562" duration="4413000" />
-      <workItem from="1630055599851" duration="292000" />
+      <workItem from="1630055599851" duration="1078000" />
     </task>
     <servers />
   </component>
@@ -181,56 +187,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="701" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617794282735">
+    <state x="440" y="95" key="SettingsEditor" timestamp="1634710129745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="701" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617167825877" />
-    <state x="701" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1617255524463" />
-    <state x="701" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617794282735" />
-    <state x="308" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1617601302230">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="308" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1617601302230" />
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom" timestamp="1620132205276">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1617001019607" />
-    <state width="1877" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620132205276" />
-    <state width="1871" height="186" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1617015377168" />
-    <state width="1877" height="405" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617618566732" />
-    <state width="1877" height="246" key="GridCell.Tab.0.center" timestamp="1620132205276">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1617001019607" />
-    <state width="1877" height="246" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620132205276" />
-    <state width="1871" height="186" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1617015377168" />
-    <state width="1877" height="405" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617618566732" />
-    <state width="1877" height="246" key="GridCell.Tab.0.left" timestamp="1620132205275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1617001019607" />
-    <state width="1877" height="246" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620132205275" />
-    <state width="1871" height="186" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1617015377166" />
-    <state width="1877" height="405" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617618566732" />
-    <state width="1877" height="246" key="GridCell.Tab.0.right" timestamp="1620132205276">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="188" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1617001019607" />
-    <state width="1877" height="246" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1620132205276" />
-    <state width="1871" height="186" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1280.680@0.0.1920.1040" timestamp="1617015377168" />
-    <state width="1877" height="405" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617618566732" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1625118330819">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1619412303300" />
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1625118330819" />
-    <state x="-1779" y="-13" width="1507" height="1025" maximized="true" key="dock-window-1" timestamp="1616667076174">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1779" y="-13" width="1507" height="1025" maximized="true" key="dock-window-1/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616667076174" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1618807558178">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1618807558178" />
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634710129745" />
   </component>
 </project>

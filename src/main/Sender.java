@@ -6,7 +6,6 @@ import java.io.OutputStream;
 
 public class Sender {
 
-    //private static final Logger log = Logger.getLogger(Sender.class);
     private final Logger log = Logger.getLogger(Sender.class);
 
 

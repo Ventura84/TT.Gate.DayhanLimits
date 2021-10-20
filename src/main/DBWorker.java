@@ -11,7 +11,7 @@ import static main.Main.*;
 
 public class DBWorker {
 
-    //private static final Logger log = Logger.getLogger(DBWorker.class);
+
     private final Logger log = Logger.getLogger(DBWorker.class);
 
 

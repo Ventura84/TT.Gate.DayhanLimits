@@ -9,10 +9,6 @@ import java.util.*;
 
 public class Properties {
 
-
-
-
-    //private static final Logger log = Logger.getLogger(Properties.class);
     private final Logger log = Logger.getLogger(Properties.class);
 
 

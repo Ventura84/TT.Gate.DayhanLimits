@@ -7,7 +7,6 @@ import java.util.Arrays;
 
 public class Reader {
 
-    //private static final Logger log = Logger.getLogger(Reader.class);
     private final Logger log = Logger.getLogger(Reader.class);
 
 

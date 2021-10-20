@@ -20,17 +20,6 @@ public class Main {
     private static HashMap<String, Serializable> PROP;
 
 
-//    public static double LIMIT_TOHUM;
-//    public static double LIMIT_TEH_SURUM;
-//    public static double LIMIT_TEH_TEKIZLEMEK;
-//    public static double LIMIT_TEH_CILLER;
-//    public static double LIMIT_TEH_CIZILLEMEK;
-//    public static double LIMIT_TEH_EKIS;
-//    public static double LIMIT_MIN_AMONIL;
-//    public static double LIMIT_MIN_KARBAMID;
-//    public static double LIMIT_SUW;
-//    public static double LIMIT_HIMIKI;
-//    public static double LIMIT_AVIA;
 
 
 
