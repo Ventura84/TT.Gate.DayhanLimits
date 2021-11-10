@@ -133,7 +133,8 @@ public class ClientHandleThread extends Thread{
         //System.out.println(tid);
         switch (pan.substring(6, 7)){
             case "1" :
-            case "2" : {
+            case "2" :
+            case "5" : { //NEW BIN FOR CLESS
                 accList.addAll(AccDokunKarhanasy);
                 accList.addAll(AccGallaKarhanasy);
                 accList.addAll(AccOsumligiGoramak);
@@ -145,7 +146,8 @@ public class ClientHandleThread extends Thread{
                 //System.out.println("ACC LIST FROM METHOD 1 : " + accList);
                 return accList.contains(tid);
             }
-            case "3" : {
+            case "3" :
+            case "6" : { //NEW BIN FOR CLESS
                 accList.addAll(AccPagtaKarhanasy);
                 accList.addAll(AccDokunKarhanasy);
                 accList.addAll(AccTehKarhanasy);
@@ -156,7 +158,8 @@ public class ClientHandleThread extends Thread{
                 //System.out.println("ACC LIST FROM METHOD 1 : " + accList);
                 return accList.contains(tid);
             }
-            case "4" : {
+            case "4" :
+            case "7" : { //NEW BIN FOR CLESS
                 accList.addAll(AccDokunKarhanasy);
                 accList.addAll(AccSugundyrKarhanasy);
                 accList.addAll(AccOsumligiGoramak);
@@ -185,7 +188,8 @@ public class ClientHandleThread extends Thread{
                     return true;
                 break;
             }
-            case "2" : {
+            case "2" :
+            case "5" : {
                 if(service.equals("MINERAL_DOKUNLER")||
                    service.equals("TOHUM") ||
                    service.equals("TEH_HYZMAT") ||
@@ -196,12 +200,14 @@ public class ClientHandleThread extends Thread{
                     return true;
                 break;
             }
-            case "3" : {
+            case "3" :
+            case "6" : {
                 if(!service.equals("HIMIKI"))
                     return true;
                 break;
             }
-            case "4" : {
+            case "4" :
+            case "7" : {
                 if(service.equals("MINERAL_DOKUNLER")||
                    service.equals("TOHUM") ||
                    service.equals("TEH_HYZMAT") ||

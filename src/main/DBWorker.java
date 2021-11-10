@@ -151,10 +151,10 @@ public class DBWorker {
     private String checkPAN(String pan){
         //System.out.println("CHECKING PAN");
 
-//        if(!pan.substring(0, 6).equals("993443")){
-//            return "726"; // PAN IS REJECTED
-//        }
-// TODO ENABLE IT IN PROD VERSION
+        if(!pan.substring(0, 6).equals("993443") && !pan.substring(0, 6).equals("993442")){
+            return "726"; // PAN IS REJECTED
+        }
+ //TODO ENABLE IT IN PROD VERSION
 
         String queryToPg = String.format(Locale.US, "SELECT COUNT(pan) FROM limits WHERE pan = '%s'", pan);
 
@@ -223,8 +223,10 @@ public class DBWorker {
 
 
         //System.out.println("ADDING NEW PAN");
+        //log.info(ip + "\t\t ADDING NEW PAN...");
         calculateLimits(fields[5]);
         //System.out.println("END OF CALC");
+        //log.info(ip + "\t\t CALCULATED");
 
         String queryToPg = null;
 
@@ -234,17 +236,20 @@ public class DBWorker {
                        "VALUES ('%s', %d, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f)", fields[2], Integer.parseInt(fields[5].trim()), LIM_SA_MINERAL_DOKUNLER_T, LIM_SA_TOHUM_T, LIM_SA_TEH_HYZMAT_T, LIM_SA_SUW_HYZMAT_T, LIM_SA_UCAR_HYZMAT_T, LIM_SA_HIMIKI_T);
                 break;
             }
-            case "2" : {
+            case "2" :
+            case "5" : {
                 queryToPg = String.format(Locale.US, "INSERT INTO limits (pan, field_area, lim_mineral_dokunler, lim_tohum, lim_teh_hyzmat, lim_suw_hyzmat, lim_ucar_hyzmat, lim_osumlikleri_goramak) " +
                        "VALUES ('%s', %d, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f)", fields[2], Integer.parseInt(fields[5].trim()), LIM_BU_MINERAL_DOKUNLER_T, LIM_BU_TOHUM_T, LIM_BU_TEH_HYZMAT_T, LIM_BU_SUW_HYZMAT_T, LIM_BU_UCAR_HYZMAT_T, LIM_BU_OSUMLIKLERI_GORAMAK_T);
                 break;
             }
-            case "3" : {
+            case "3" :
+            case "6" : {
                 queryToPg = String.format(Locale.US, "INSERT INTO limits (pan, field_area, lim_mineral_dokunler, lim_tohum, lim_teh_hyzmat, lim_suw_hyzmat, lim_ucar_hyzmat, lim_osumlikleri_goramak, lim_mikrodokunleri_garmak, lim_kebelek_tutujy, lim_yapragy_dusurmek, lim_hasal_otlara_garsy, lim_ulag_cykdajylary, lim_awtoulag_harajatlary) " +
                        "VALUES ('%s', %d, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f, %.2f)", fields[2], Integer.parseInt(fields[5].trim()), LIM_PA_MINERAL_DOKUNLER_T, LIM_PA_TOHUM_T, LIM_PA_TEH_HYZMAT_T, LIM_PA_SUW_HYZMAT_T, LIM_PA_UCAR_HYZMAT_T, LIM_PA_OSUMLIKLERI_GORAMAK_T, LIM_PA_MIKRODOKUNLERI_GARMAK_T, LIM_PA_KEBELEK_TUTUJY_T, LIM_PA_YAPRAGY_DUSURMEK_T, LIM_PA_HASAL_OTLARA_GARSY_T, LIM_PA_ULAG_CYKDAJYLARY_T, LIM_PA_AWTOULAG_HARAJATLARY_T);
                 break;
             }
-            case "4" : {
+            case "4" :
+            case "7" : {
                 queryToPg = String.format(Locale.US, "INSERT INTO limits (pan, field_area, lim_mineral_dokunler, lim_tohum, lim_teh_hyzmat, lim_suw_hyzmat, lim_himiki) " +
                        "VALUES ('%s', %d, %.2f, %.2f, %.2f, %.2f, %.2f)", fields[2], Integer.parseInt(fields[5].trim()), LIM_SU_MINERAL_DOKUNLER_T, LIM_SU_TOHUM_T, LIM_SU_TEH_HYZMAT_T, LIM_SU_SUW_HYZMAT_T, LIM_SU_HIMIKI_T);
                 break;
@@ -271,10 +276,11 @@ public class DBWorker {
         //System.out.println("CHECKING LIMITS...");
         String limitToFind = "lim_" + fields[4].toLowerCase().trim(); // SERVICE NAME
 
+
         String queryToPg = String.format(Locale.US, "SELECT %s, %s FROM limits WHERE pan = '%s'", limitToFind, "field_area", fields[2]);
         //System.out.println("QUERY : " + queryToPg);
         double limitAmount = 0;
-        int fieldArea = 0; // HA // GEKTARS
+        int fieldArea = 0; // HA // GEKTAR
         double paymentAmount = (Integer.parseInt(fields[3]) / 100.d);
         try {
             requestResult = connStatement.executeQuery(queryToPg);
@@ -293,12 +299,15 @@ public class DBWorker {
 
         if(limitAmount < paymentAmount){
             closeConnections();
+            //log.info(ip + "\t\t ERROR : 724");
             return "724"; //LIMIT EXCEEDED
         } else if (fieldArea < Integer.parseInt(fields[5])) {
             closeConnections();
+            //log.info(ip + "\t\t ERROR : 725");
             return "725"; // AREA IS TO BIG
         } else {
             closeConnections();
+            //log.info(ip + "\t\t ERROR : OK");
             return "OK";
         }
 
@@ -310,15 +319,23 @@ public class DBWorker {
     public String dbVerify(String[] fields) {
 
         postgreSQLConnection();
+        //log.info(ip + "\t\t DB CONNECTED" );
 
         String checkPanResult = checkPAN(fields[2]);
+        //log.info(ip + "\t\t PAN CHECKED : " + checkPanResult);
+
         String addNewPanResult;
         switch (checkPanResult){
             case "OK" : {
+                //log.info(ip + "\t\t OK ENTERED");
+
                 return checkLimits(fields);
             }
             case "ADD" : {
+                //log.info(ip + "\t\t ADD ENTERED");
+
                 addNewPanResult = addNewPAN(fields);
+                //log.info(ip + "\t\t ADD RESULT : " + addNewPanResult);
                 if(addNewPanResult.equals("OK")){
                     return checkLimits(fields);
                 } else {
