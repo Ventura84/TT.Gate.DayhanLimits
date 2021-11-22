@@ -7,17 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4343db6c-529a-4c2f-b4ab-d4f4552624df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Ventura.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Ventura.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/DayhanLimits/DayhanLimits.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DayhanLimits/DayhanLimits.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DayhanLimits/main/ClientHandleThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DayhanLimits/main/ClientHandleThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DayhanLimits/main/DBWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DayhanLimits/main/DBWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DayhanLimits/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DayhanLimits/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DayhanLimits/main/Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DayhanLimits/main/Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DayhanLimits/main/Reader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DayhanLimits/main/Reader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DayhanLimits/main/Sender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DayhanLimits/main/Sender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/ClientHandleThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ClientHandleThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DBWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/DBWorker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +47,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -100,6 +91,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -195,12 +187,13 @@
       <workItem from="1636449983944" duration="1050000" />
       <workItem from="1636456594223" duration="2839000" />
       <workItem from="1636459818358" duration="8000" />
-      <workItem from="1636518148970" duration="3194000" />
+      <workItem from="1636518148970" duration="3269000" />
+      <workItem from="1637382766038" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="585" y="21" width="749" height="943" key="CommitChangelistDialog2" timestamp="1636520295697">
